@@ -1,55 +1,141 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="english"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="english">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>My Latest Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/theme/styles.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="/theme/slicknav.css">
-    <script src="/theme/jquery.slicknav.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript"
-	    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-    <![endif]-->
-<script>
-	$(function(){
-		$('#menu').slicknav({'label':''});
-	});
+<!--<![endif]-->
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="Eric Garlic">
+
+
+        <title>My Latest Website - Categories</title>
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://ajp4.github.io/theme/css/style.css">
+
+        <!-- Custom CSS -->
+        	<link rel="stylesheet" href="https://ajp4.github.io/theme/css/colors/blue.css" id="colors">
+
+        <!-- Code highlight color scheme -->
+            <link href="https://ajp4.github.io/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+                <meta property="og:locale" content="">
+		<meta property="og:site_name" content="My Latest Website">
+	</head>
+	<body>
+		<header id="header">
+			<!-- Container -->
+			<div class="container">
+				<!-- Logo / Mobile Menu -->
+				<div class="three columns">
+					<div id="logo">
+						<h1><a href="https://ajp4.github.io/">My Latest Website</a></h1>
+					</div>
+				</div>
+				<!-- Navigation
+				================================================== -->
+				<div class="thirteen columns">
+					
+					<nav id="navigation" class="menu">
+						<ul id="responsive">
+
+							<li><a href="https://ajp4.github.io/">Home</a></li>
+
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- Container / End -->
+		</header>
+		<!-- Header / End -->
+		
+		<div id="content-wrapper">
+			<section id="titlebar">
+				<!-- Container -->
+				<div class="container">
+					<div class="sixteen columns">						
+						<nav id="breadcrumbs">
+							<ul>
+								<li>You are here:</li>
+								<li><a href="https://ajp4.github.io/">Home</a></li>
+<li>Categories</li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+				<!-- Container / End -->
+			</section>
+
+			<div class="container">
+	<div class="twelve alt columns">
+	<h3 class="headline">Categories</h3>
+	<span class="line" style="margin-bottom:30px;"></span>
+	<div class="clearfix"></div>
+	
+    <ul>
+        <li><a href="https://ajp4.github.io/category/another-category.html">Another Category</a></li>
+        <li><a href="https://ajp4.github.io/category/test-category.html">Test Category</a></li>
+    </ul>
+	</div>
+
+	<!-- Sidebar -->
+	<div class="four columns">
+
+		
+	</div>
+			</div>
+			<!-- Container / End -->
+		</div>
+		<!-- Content Wrapper / End -->
+
+
+		<div id="footer-bottom">
+			<!-- Container -->
+			<div class="container">
+				<div class="eight columns">Blog powered by <a href="http://getpelican.com">Pelican</a></div>
+					<div class="eight columns">
+						<ul class="social-icons-footer">
+								<li>
+									<a href="#" class="tooltip top" title="You can add links in your config file">
+										<i class="icon-you can add links in your config file"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltip top" title="Another social link">
+										<i class="icon-another social link"></i>
+									</a>
+								</li>
+							<li><a href="https://ajp4.github.io/None" class="tooltip top" title="RSS"><i class="icon-rss"></i></a></li>
+						</ul>
+					</div>
+			</div>
+			<!-- Container / End -->
+		</div>
+		<!-- Footer Bottom / End -->
+		
+	<!-- Javascripts -->
+	<script src="https://ajp4.github.io/theme/js/jquery.min.js"></script>
+<script type="text/javascript">
+    var disqus_shortname = 'python-for-project-managers';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
 </script>
-<link rel="icon" href="/theme/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
-<link rel="apple-touch-icon" sizes="114x114" href="/theme/apple-touch-icon-precomposed.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/theme/favicon152.png">
-<link rel="apple-touch-icon" sizes="196x196" href="/theme/favicon196.png">
-  </head>
-
-  <body>
-    <div id="wrapper">
-
-      <header>
-	<nav class="byline"><ul id="menu">
-        </ul></nav><!-- /#menu -->
-        <div class="downloads">
-          <a href="#" class="fa fa-You can add links in your config file"></a>
-          <a href="#" class="fa fa-Another social link"></a>
-        </div>
-      </header>
-<section>
-    <h1>Categories in My Latest Website</h1>
-<ul>        <li><a href="https://ajp4.github.io/category/another-category.html">Another Category</a> (1)</li>
-        <li><a href="https://ajp4.github.io/category/test-category.html">Test Category</a> (1)</li>
-</ul>
-</section>
-      <footer>
-	  <a href="https://ajp4.github.io/pages/about.html" >About</a>
-	  <div class="right-footer">
-	  <a href="https://ajp4.github.io/categories.html" >Categories</a>
-	  <a href="https://ajp4.github.io/tags.html" >Tags</a>
-	  </div>
-      </footer>
-</body>
+	</body>
 </html>
